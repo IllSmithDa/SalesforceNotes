@@ -79,3 +79,27 @@
     * Adding the Lightning Experience User permission to profiles is the fastest way to mass-enable the new user interface.
 
   3. After Lightning Experience is turned on, things change. From this point, when users are assigned the Lightning Experience User permission, they get Lightning Experience by default. 
+
+# Other cool Stuff about LIghtning 
+
+  1. You can personalize your navigation bar
+
+    * Reorder tabs and items
+
+    * You can add more items to the navigation bar by clicing Add More Items
+
+    * Users can’t remove the items you include in the navigation bar, and they can’t personalize the navigation bar when it contains more than 50 items.
+
+    * Items that you add to an app’s navigation bar are added to the end of users’ personalized navigation bars in the order that you added them.
+
+    * When you remove an item from an app, that item remains in your users’ personalized navigation bars, and users can then delete it.
+
+    * If you don’t want your users to personalize the navigation bar for any app, disable personalization. From Setup, enter User Interface in the Quick Find box, then select User Interface. Select Disable Navigation Bar Personalization in Lightning Experience. Salesforce recommends disabling navigation personalization by app instead of for the entire org.
+
+    * Control if temporary tabs are created when users access items outside of the app. From Setup in Lightning Experience, go to the App Manager. Edit the desired app. On the App Options page, select Disable temporary tabs for items outside of this app.
+
+    * The tab’s dropdown menu includes an option to create an item. For example, create an account by selecting + New Account from the Account tab’s dropdown menu. However, the New action doesn’t appear if:
+
+      - Users don’t have the create permission for the object
+
+      - The New action isn’t part of the search layout for the object’s list view 
