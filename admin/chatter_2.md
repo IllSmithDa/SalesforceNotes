@@ -132,3 +132,5 @@
   1. Profile-based rollout of Chatter enables Chatter for a subset of users instead of all users in the organization.
 
   2. A Chatter profile-based rollout makes Chatter available for a part of your organization, but not for all users. Once profile-based rollout is enabled for your organization, you can turn enable Chatter for the users with the required user profile or permission sets. All other users in your organization don’t have access to Chatter. 
+
+  

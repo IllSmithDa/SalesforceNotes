@@ -4,7 +4,7 @@
     * If your data is stored in spreadsheets, hidden in emails or text messages, or pinned to your bulletin board, it’s hard to get the full picture of your prospective customer. And you certainly can’t access the data from anywhere, anytime, nor can your manager or executives see your progress on deals in flight, at least not without calling you for a status update.
   3. Salesforce includes a platform for collaboration. You can create groups, follow people and topics, ask questions, post informal polls, share files and links, and mention colleagues with whom you’d like to connect. 
 
-#Salesforce Projects
+# Salesforce Projects
   1. Processes with these traits are great for Salesform platform    
     * Heavy email collaboration
     * Reliance on spreadsheets

@@ -36,11 +36,11 @@
 
     * platform as a service where you take the not just infrastructure but the platform as well.
 
-    * everything managed by the vender which is where Salesforce falls under
-
     * also includes operating system, app server, DB
 
     * No or little concern over hardware, software upgrades etc. 
+
+  8. These models exists before cloud computing was ever a thing
 
 # SMAC in Salesforce context
 
