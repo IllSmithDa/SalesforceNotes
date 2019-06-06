@@ -53,3 +53,53 @@
     * these fields are automatically indexed
 
   4. Custom fields in the api is always followed by '__c'
+
+  5. You can have currently 500 fields for either a custom or standard object
+
+
+# Many to Many relationships in objects
+
+  1. Examples of many to many
+  
+    * many candidates applying for multiple job openings
+
+      - candidates and job openings are both parents with one being primary master and
+      the other being the secondary master
+
+      - if candidates is deleted, job openings become primary master
+
+      - There is some sort of junction object to describe this relationship or a two way
+      master detail relationship between two masters
+
+    * many students applying to multiple classes
+
+      - student beng primary master and classes being secondary master
+
+    * many people participating in multiple sports
+
+      - people being primary master and sports as the secondary master
+
+    * multiple courses for multiple facilities 
+
+      - courses being prmary master and facilities being secondary master
+
+# Junction Object
+
+  1. Junction object has 2 relationship fields
+  
+    * e.g one relationship towards the student master and second relationship towards the activity master
+  
+  2. You can drag object and use master detail option in the schema builder
+
+  3. Custom object can only have up to 2 master detail relationship
+
+  4. You can however, still have up to 40 lookup relationships in total
+
+    * That total goes down by one for every master detail relationships that exists
+
+      - e.g 1 master detail = 39 lookup relationships 
+      
+      - e.g 2 master detail = 38 lookup relationships
+
+      
+
