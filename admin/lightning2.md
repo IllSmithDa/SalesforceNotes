@@ -103,3 +103,9 @@
       - Users don’t have the create permission for the object
 
       - The New action isn’t part of the search layout for the object’s list view 
+
+# App Manager 
+
+  1. You can upgrade a class app to lightning app in the app manager settings
+
+  

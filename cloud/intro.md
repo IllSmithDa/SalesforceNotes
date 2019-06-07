@@ -68,3 +68,12 @@
 
   5. SoSL - Salesforce object search language 
 
+# Multitenancy
+
+  1. Multiple organizations sharing the same version of the application
+
+  2. Allows for meta data - data about data 
+
+    * metadata api used to communicate with salesforce servers to recieve the metadata components
+
+  

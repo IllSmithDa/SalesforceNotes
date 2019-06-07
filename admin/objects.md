@@ -101,5 +101,64 @@
       
       - e.g 2 master detail = 38 lookup relationships
 
-      
+# External lookup
 
+  1. Links an object with external object outside your salesforce organizaiton
+
+# More on Picklists 
+
+  1. Global value sets
+
+    * Global value sets let you share the same picklist values with more than one picklist field. 
+
+      - Imagine your bakery has several places where it needs to list ingredients. Assign the same set of ingredient values to more than one picklist field.
+
+    * Pick a single ingredient in one picklist field, and several ingredients in a custom multi-select field from the same value set.
+
+  2. Create a Global Value Set
+
+    * From Setup, enter Picklist in the Quick Find box, then select Picklist Value Sets.
+
+    * Next to Global Value Sets, click New.
+
+    * Enter a label for the global value set. This name identifies the set in Setup, and appears as Values option when users create a picklist field.
+
+    * To tell users what these values are for, enter a specific description of the global value set. This text appears on the Picklist Value Sets list page in Setup.
+
+    * Enter the values, one per line.
+
+    * Optionally, choose to sort the values alphabetically or to use the first value in the list as the default value, or both. If you select both options, Salesforce alphabetizes the entries and then sets the first alphabetized value as the default.
+
+# Manage Values for Global Value sets 
+
+  1. From Setup, enter Picklist in the Quick Find box, then select Picklist Value Sets.
+
+  2. Click the Label of the global value set to see its details
+
+    * Some things to consider about editing global value sets:
+
+      - To replace a value, create the new value first. Then click Replace to start the process.
+
+      - When replacing a value, the Replace all blank values option assigns the new value to all picklist fields that are currently blank.
+
+      - Deleting a value in a global value set goes to the background jobs queue. When the job completes, your picklist is updated and you’re notified by email.
+
+# Promote Existing Field Values to a Global Value Set
+
+  1. Go to the Fields & Relationships section of the object that contains the picklist you want to convert.
+
+  2. Click the Field Label for the picklist.
+
+  3. Click Edit.
+
+  4. Click Promote to Global Value Set.
+
+  5. Enter a label for the global value set.
+
+  6. Accept the Field Name or edit it.
+
+  7. Optionally, enter a description to identify it when using the values for other custom picklists.
+
+  8. Click Promote to Global Value Set, again.
+
+  
