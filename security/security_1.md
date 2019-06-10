@@ -15,8 +15,7 @@
     * Username must be unique across all Salesforce organizations
 
   2. Ip restriction and login hours can be assigned further controlling when and where a user
-  can access salesforce
-
+  can access salesforce 
 
 # Restrictions
 
@@ -215,3 +214,4 @@
   6. permissions settings used to increase current user permissions
 
     * often applied with private OWD
+    
