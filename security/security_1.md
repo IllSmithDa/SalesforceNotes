@@ -120,9 +120,7 @@
 
       - If parent or master object is set to private, the child object is also set to private
 
-  2. Roles
-
-  3. 
+  2. Roles 
 
 # Roles vs Profile
 
