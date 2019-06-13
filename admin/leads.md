@@ -47,3 +47,35 @@
   4. When you qualify a lead, you can convert the lead record into an opportunity. You then work your opportunity until you close the deal either by completing it or canceling it.
 
   5. When you convert a lead, Salesforce uses the information stored in the lead record to create a business account, a contact, and an opportunity
+
+# More on Leads 
+
+  1. Lead Assignment Rules 
+
+    * Automically assign leads to users or queue
+
+  2. Web to lead 
+
+    * Gather information to a web site 
+    
+    * up to 500 leads a day
+
+    * Quick find Web-To-Leads
+      
+      - Select fields you need, and the return url when users are finishe
+
+      - include reCaptcha if necessary 
+
+      - Click generate to generate a html file which is a form you can use to create a lead. 
+
+  3. Quick Find Queue, create new Queue to assign leads to a specific user or profile or group
+
+  4. Quick Find Lead Assignment Rules,
+
+    * create a custom rule 
+
+    * Find rule entry where you can add criteria based rule where a certain field and its values will determine who gets assigned to rule
+
+    * Now whoever is in the queue, can have the option to assign themselves. It is still only one owner so whoever assign first becomes the owner out the queue. 
+  
+  

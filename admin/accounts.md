@@ -16,6 +16,8 @@
 
       - Finally, Account Teams tell you which sales reps are working on the Get Cloudy deal so you can better coordinate with your internal team.
 
+  2. Accounts can only have on owner
+
 # Contacts to Multiple Accounts
 
   1. When you relate a single contact to multiple accounts, you can easily track the relationships between people and businesses without creating duplicate records.
@@ -68,4 +70,3 @@
 
   5. If the same people usually work together, create a default account team and assign them to it. Then, add the entire default team to your account by selecting Add Default Team from the Account Team related list action menu. 
 
-  

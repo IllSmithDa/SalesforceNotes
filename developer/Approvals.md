@@ -18,6 +18,14 @@
 
     * If the CEO approves the position, final approval actions are executed. They set the approval status to Approved, unlock the record for future updates, and notify the employee who requested the new position.
 
+# More on Approval Processes 
+
+  1. If a record of a object - lets say a entry or record for Opportunity does not meet a criteria for an approval, it will not be used when we click Submit Approval. 
+
+  2. Though an Admin can move onto the next steps in the case of a rejected approval, a regular salesforce user will not be able to. 
+
+  3. Once the approval has been edited and approved, the user will be able to move onto the next step. This is a class case of how approvals work in the real world. 
+
 # Build an Approval Process - You need to make sure that a manager approves opportunities that are discounted more than 40%. The opportunity should reflect its approval status: Approved or Not Approved.
 
   1. Create an Email Template
@@ -73,5 +81,3 @@ Field
 
     * Add a Submit for Approval action that submits the opportunity for approval.
     
-
-

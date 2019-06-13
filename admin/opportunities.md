@@ -2,6 +2,12 @@
 
   1. Opportunities are deals in progress. In Salesforce, you can create opportunities for existing accounts or by converting a qualified lead.
 
+  2. Opportunities process can be customized to fit client needs 
+
+  3. Stage history tab - records stages within opportunites it has been through
+
+  4. Only one account can be associated with one opportunity but can be associated with multiple contacts
+
 # Opportunity Stages - If you’ve worked in sales, you know that deals usually progress from tentative to firm before they’re finalized. As a deal progresses, you grow more confident that you’ll make the sale
 
   1. Prospecting
