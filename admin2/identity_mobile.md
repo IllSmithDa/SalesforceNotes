@@ -212,3 +212,15 @@
   1. Your production org can have multiple users with the same verified email address and mobile number. But your customers must have unique identifiers.
 
   2. To address this problem, you can add a few lines of code to the login discovery handler that filters users to ensure uniqueness.
+
+# Create a User List View to Manage Identity Verifications by User
+
+  1. From Setup, enter Users in the Quick Find box, and click Users.
+
+  2. Click Create New View and name the view MFI Verified Users.
+
+  3. Under Specify Filter Criteria, select Active equals True.
+
+  4. Under Select Fields to display, add and remove fields until you get this list.
+
+  5. Click Save.

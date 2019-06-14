@@ -47,6 +47,10 @@
 
       - For example, with the ‘Contacts and Accounts’ report type, ‘Contacts’ is the primary object and ‘Accounts’ is the related object.
 
+    * You can set up a custom report type to define the reports and fields to make available for identity verification reports and dashboards. 
+
+      - From Setup, enter Report Types in the Quick Find box, and click Report Types and use New Custom Report Type. 
+
 # Benefits of Reports and Dashboards 
 
   1. Visibility into data—reports and dashboards give you easy access to key data insights, which helps managers make better decisions.
