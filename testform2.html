@@ -10,10 +10,10 @@
     <!--  NOTE: Please add the following <FORM> element to your page.             -->
     <!--  ----------------------------------------------------------------------  -->
     
-    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
     
-    <input type=hidden name="oid" value="00D4P000000jbo3">
-    <input type=hidden name="retURL" value="https://na132.lightning.force.com/lightning/o/Lead/list?filterName=Recent">
+    <input type=hidden name="orgid" value="00D4P000000jbo3">
+    <input type=hidden name="retURL" value="https://na132.lightning.force.com/lightning/o/Case/list?filterName=Recent">
     
     <!--  ----------------------------------------------------------------------  -->
     <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -22,23 +22,27 @@
     <!--  <input type="hidden" name="debugEmail" value="sam404kim@gmail.com">     -->
     <!--  ----------------------------------------------------------------------  -->
     
-    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
-    
-    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    <label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
     
     <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
     
-    <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+    <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
     
-    <label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+    <label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
     
-    <label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+    <label for="description">Description</label><textarea name="description"></textarea><br>
     
-    <label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Web">Web</option>
-    <option value="Phone Inquiry">Phone Inquiry</option>
-    <option value="Partner Referral">Partner Referral</option>
-    <option value="Purchased List">Purchased List</option>
+    <label for="type">Type</label><select  id="type" name="type"><option value="">--None--</option><option value="Mechanical">Mechanical</option>
+    <option value="Electrical">Electrical</option>
+    <option value="Electronic">Electronic</option>
+    <option value="Structural">Structural</option>
     <option value="Other">Other</option>
+    </select><br>
+    
+    <label for="status">Status</label><select  id="status" name="status"><option value="">--None--</option><option value="New">New</option>
+    <option value="Working">Working</option>
+    <option value="Escalated">Escalated</option>
+    <option value="Closed">Closed</option>
     </select><br>
     
     <input type="submit" name="submit">
