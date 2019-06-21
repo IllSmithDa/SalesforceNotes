@@ -78,5 +78,5 @@
 
       - Make sure to remove fields as request but make sure to add the rest 
 
-      - do this for both SolarBots and SolarBot Status and save 
+      - do this for both SolarBots and SolarBot Status and save
 
