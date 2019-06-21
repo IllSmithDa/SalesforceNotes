@@ -71,9 +71,9 @@
       * With Identity Connect, you can let users sign in to Salesforce using their AD username and password. In some circumstances, you can configure Identity Connect to automatically sign users in to Salesforce. Yup—users can click a bookmark or link to Salesforce and they’re authenticated and taken to Salesforce without even seeing a login page. 
     11. App Launcher 
 
-      * he App Launcher is part of Salesforce Identity and it plays a prominent role in Lightning Experience. The App Launcher presents tiles for all the standard apps, custom apps, and connected apps in your Salesforce org.
+      * The App Launcher is part of Salesforce Identity and it plays a prominent role in Lightning Experience. The App Launcher presents tiles for all the standard apps, custom apps, and connected apps in your Salesforce org.
 
-      *  Your users can go to one location in Salesforce to access all apps—without having to log in again. You choose which third-party and other connected apps to add the App Launcher. And you control which apps are available to which users.
+      * Your users can go to one location in Salesforce to access all apps—without having to log in again. You choose which third-party and other connected apps to add the App Launcher. And you control which apps are available to which users.
 
 # Who Needs Access to Your Orgs and Communities?
 

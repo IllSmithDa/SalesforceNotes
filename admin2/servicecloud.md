@@ -16,6 +16,23 @@
     
     * All unifying information about a customer is stored on a case, including account, contact, product, and history data so that anyone on your service team can jump in to help. 
 
+    * Case is ultimately just another standard object. 
+
+    * Can be high fequency: call center model 
+
+      - phone: automated, manual, call routing
+
+      - web/email: case submissions, email notifcations, etc. 
+
+    * service process
+
+      - log a case
+
+      - capture details
+
+      - route to right persons
+
+  
   3. Channels and Digital Engagement
 
     * Whether the case arrived by email, phone call, web chat, social media, or text message, a support agent can quickly respond to it from the console. Agents can track any useful information and engage with customers on their favorite channels, devices, or apps to provide a great service experience.
@@ -174,13 +191,15 @@
 
   9. Here’s the queue, which is empty at this time. 
 
-# Add an Assignment Rules 
+# Add an Case Assignment Rules 
 
   1. From Service Setup, enter Case Assignment Rules in the Quick Find box, then select Case Assignment Rules.
 
+     * Note that only one person can be assigned to a case at a time 
+
   2. Click New.
 
-  3. Type, Solar Panel Installation, and click Save.
+  3. Add Assignment rule name and click Save.
 
   4. Select the rule you just created, and next to Rule Entries, click New.
 
@@ -205,6 +224,8 @@
 # Define When Cases Escalate
 
   1. From Service Setup, enter Escalation Rules in the Quick Find box, then select Escalation Rules.
+
+    * Used eithr for a high priority case or a case that has been active for too long. 
 
   2. Click New.
 

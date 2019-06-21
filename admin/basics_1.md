@@ -78,7 +78,7 @@
   5. Your contacts might be with more than one company and so Salesforce allows you to record them. 
     * primary account is the one contact associate themselves most with
 
-#Account Hierarchies
+# Account Hierarchies
   1. Accounts or companies can be set up with heirarchies
 
     * One global company with multiple subsidaries

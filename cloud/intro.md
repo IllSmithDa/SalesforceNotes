@@ -36,11 +36,11 @@
 
     * platform as a service where you take the not just infrastructure but the platform as well.
 
-    * everything managed by the vender which is where Salesforce falls under
-
     * also includes operating system, app server, DB
 
     * No or little concern over hardware, software upgrades etc. 
+
+  8. These models exists before cloud computing was ever a thing
 
 # SMAC in Salesforce context
 
@@ -68,3 +68,12 @@
 
   5. SoSL - Salesforce object search language 
 
+# Multitenancy
+
+  1. Multiple organizations sharing the same version of the application
+
+  2. Allows for meta data - data about data 
+
+    * metadata api used to communicate with salesforce servers to recieve the metadata components
+
+  

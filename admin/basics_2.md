@@ -1,38 +1,60 @@
 # Sales Process
   1. Sales Process starts with a lead or in case of salesforce a prospect
+
   2. leads or prospect are interested in your products or services but have not yet commited to your product
+
   3. Sources are where you get your leads in salesforce
+
   4. Salesforce activities are tasks, calls, and events that track in relation to the lead. 
+ 
   5. When lead is converted, they are pushed into Account, Contact and Opportunities
-    * Note that opportunities are potential revenue generating deals that sales rep track in the sales cycle
-    until the dael is closed. 
+    
+    * Note that opportunities are potential revenue generating deals that sales rep track in the sales cycle until the dael is closed. 
+
+    * Leads are active until converted or closed
 
 # Opportunities Tab in Salesforce
   1. Multiple stages involved for an Opportunity in salesforce
+
     * Example of what a Opportunity stages might look like 
+
       - Prospecting
+
       - Developing
+
       - Negotiation/Review
+
       - Closed/Won
+
       - Closed/Loss
+
   2.  Stages can be customized for specific needs and processses
-    * You can change name of each stage or add new ones 
-    that intuitive for your salespeople
+
+    * You can change name of each stage or add new ones that intuitive for your salespeople
+
   3. Contact roles for opportunities tell you which contacts
   you're dealing with for the opportunity and how they are related to that opportunity or what their role is
+
   4. You can also create opportunity team when it is a team rather than a individual that is closing a deal
+
     * more common than a solo contact
 
 # Leads or Prospect
+
   1. They are optional though there are advantages to using them
+
     * Advantages include
+
       - knowing who is in your pipeline
+
       - track deals, reporting them and target them with marketing campaigns
+
       - help make decisions or concentrate on potential deals most likely to close
 
   2. Leads by default belong to the administrator who set up that process but you can manually assign it to someone who is more appropriately associated with the lead. 
 
   3. Qualifying a lead means you can convert a lead record into a opportunity record which you then try to close out
+
   
 # Regional Company Settings 
 
