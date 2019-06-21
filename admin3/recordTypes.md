@@ -22,3 +22,12 @@
 
     * e.g software salesman and hardware salesman have different sets of record needs but both are in Opportunity stage
 
+# More on record types
+
+  1. You can assign different record types with different page layouts with fields 
+
+    * You can set them by groups, user, object, or profiles 
+
+      - each of these can be assigned different layout or different version of the same object and tab
+
+      - these different versions (layouts) can and most likely will have different fields 
