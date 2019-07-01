@@ -42,4 +42,10 @@
 
   2. You can also gernerate a report which will also use to verify the data 
 
+# Master detail relationships ID
 
+  1. This Id and relationship is not unique and does not work as a primary key because it describes a one to many relationship
+
+    * e.g one Account with many Opportunities
+
+  2. 

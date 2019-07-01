@@ -10,3 +10,4 @@
     * enabled on a profile level 
 
   3. Lightning login allows you to login without having to provide your credentials but you need to approve it based on location and approving it on your mobile device
+

@@ -5,15 +5,7 @@
     
     * Who are my highest value prospects? 
 
-  2. It can also include follow up questions as well 
-
-    * Original question is Which products are my top sellers?
-
-      - followup questions: What makes a product a top seller, revenue or quentity
-
-      - Do you want to see the results grouped by product family?
-
-  3. You then also define requirements for top products such as 
+  2. You then also define requirements for top products such as 
 
     * "Top sellers" here means quantity rather than revenue
 
@@ -23,7 +15,7 @@
 
     * do not show inactive products
 
-  4. Finally you also include a criteria in your report such as 
+  3. Finally you also include a criteria in your report such as 
 
     * report type = Opportunities with product
 
@@ -35,13 +27,13 @@
 
     * filter = product 'equals' active
 
-  5. Report overall is a list of records that meet the criteria you define. Its displayed in Salesforce rows and columns, and can be filtered, grouped, or displayed in a graphical chart
+  4. Report overall is a list of records that meet the criteria you define. Its displayed in Salesforce rows and columns, and can be filtered, grouped, or displayed in a graphical chart
 
     * Every report is stored in a folder which can be public, hidden, or shared and set to read/write
 
     * You control who has access to the contents of the folder based on roles, permissions, public groups, and license types.
 
-  7. Report type - is like a template which makes reporting easier and contains 
+  5. Report type - is like a template which makes reporting easier and contains 
 
     * The report type determines which fields and records are available for use when creating a report. This is based on the relationships between a primary object and its related objects.
 
@@ -51,14 +43,6 @@
 
       - From Setup, enter Report Types in the Quick Find box, and click Report Types and use New Custom Report Type. 
 
-# Benefits of Reports and Dashboards 
-
-  1. Visibility into data—reports and dashboards give you easy access to key data insights, which helps managers make better decisions.
-
-  2. Time savings — you don't have time to manually dig through all your many objects, records, and fields to pull together answers to your manager's questions. Reports give you a quick way to answer both simple or complex questions.
-
-  3. Flexibility — with reports and dashboards you can pull data from all your standard and custom objects and fields. You have many powerful options for tailoring reports and dashboards to the specific needs of your end users.
-  
 #Report Builder 
   1. Criteria you enter is essentially a question and results are the answers to that question. 
   
@@ -127,6 +111,8 @@
 
   2. similar to spreadsheet, they consist of ordered sets of fields in columns with each matching record listed in a row
 
+  3. Provides a simple listing of your data without subtotals or sorting
+
 # Create Tabular Reports 
 
   1. On Reports, click New Report, choose the ‘Opportunities’ report type, and click Continue.
@@ -152,6 +138,10 @@
   3. can contain graphs and used in dashboards 
 
     * Summary reports give us many more options for organizing the data, and are great for use in dashboards. 
+
+  4. Summary report format provides a tabular listing with sorting and subtotaling
+
+  5. The only format with a floating report header. 
 
 # Create Summary Reports
 
@@ -181,6 +171,12 @@
   2. time consuming but provides to most deatiled view of your data
 
   3. can contain graphs and used in dashboards 
+
+  4. Summarizes data in a grid againt against horizontal and vertical criteria
+
+  5. Matrix report provides totals for both rows and columns
+
+  6. May be used to support dashboard components
 
 # Create Matrix Report 
 
@@ -218,6 +214,17 @@
 
   3. You can add charts to a joined reports
 
+  4. Joined reports can contain data from multiple standard and custom report types. 
+
+  5. You can add a joined report if they have relationships with the account object. 
+
+  6. A joined report up to 5 report blocks which you can add to the report to create multiple view of your data. 
+
+  7. Cannot be exported but can be saved
+
+  8. You can find joined report settings by going to the top left of the tab click the triangle next to report button and select New Opportunity Report. 
+
+  9. You can add a Group Across blocks where you aren't just grouping for one block but for all of them
 
 # Folder Sharing 
 
@@ -262,3 +269,51 @@
   4. You can also clone dashboards
 
     * This will open up the dashboard in edit mode in the drag-and-drop dashboard builder. Now you can see how the dashboard was initially created
+
+# More on reports 
+
+  1. Report format button only really works or shows up for Salesforce Classic 
+
+  2. You can export a report though doing so, you will lose any format you have set up. 
+
+  3. You can organize the report by a particular field using the Group rows by this column button
+
+  4. Records displayed in report is based on security settings already established including OWD, field level security, roles and role heirarhy and profile.
+
+# Report folder security 
+
+  1. You can add users, groups and roles but role heirarchy does not work here for report folders. Ir you have a role student role for grant access for folders, it does not mean the roles above them have access to the folder
+
+    * You must explicitly set sharing settings for each role for report folder visibility and access
+
+# Conditional Highlighting 
+  
+  1. Highlight field values on summary or matrix reports based on ranges and colors you specify. To enable conditional highlighting, your report must contain at least one summary field or custom summary formula.
+
+  2. There is low color, mid color and high color. There are low and high breakpoint values which acts as threshold between low and mid color for low breakpoint value and mid and high for the high breakpoint value
+
+# Historical Trending
+
+  1. Allows you to track changes of the records in a object over a period of time
+
+  2. Enable Historical Trending through Setup 
+ 
+# Reporting Snapshot
+
+  1. Reporting snapshots allow users to run reports and save the report results as records on custom objects. 
+  
+  2. Unlike reports, users can schedule reporting snapshots to summarize data at specific times,and work with the summarized data similarly to how they work with other records in Salesforce.
+
+  3. Benefits of Snapshot
+
+    * Running faster reports by reporting on data that is already summarized
+
+    * Creating dashboards that refresh quickly by associating them with pre-summarized data
+
+    * Sorting and filtering specific data summaries via list views
+
+    * Viewing trends in data via custom object records
+
+  4. Simply go to Setup and Report Snapshot
+
+  5. They allow you to load from a custom report to a custom object on a regularly scheduled basis 

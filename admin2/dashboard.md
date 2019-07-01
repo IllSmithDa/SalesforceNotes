@@ -10,13 +10,13 @@
 
   5. Component types include
 
-    * chart - show data graphically with a variety of chart types including pie chart
+    * chart - show data graphically with a variety of chart types including pie chart, line charts and bar charts
 
-    * guage - show single value to show within a range of custom values
+    * guage - show single value to show within a range of custom values. Show progress towards a paritcular goal 
 
-    * metric - one key value on display
+    * metric - one key value on display or single number
 
-    * table - show a set of report data in column form 
+    * table - show a set of report data in column form like top 5 list
 
     * visualforce page - custom made component
 
@@ -132,3 +132,18 @@
     * To clone the dashboard, open it up and click Clone. 
     
     * Enter a name, specify a folder, and click Create. Then click Edit to open the dashboard in edit mode in the drag-and-drop dashboard builder. Now you can see how the dashboard was initially created. Let’s take a closer look. 
+
+# More on Dashboard 
+
+  1. You can add dashboard to your pages and your custom apps. 
+
+  2. You can view dashboard as other users than yourself. If you set view dashboard as admin, 
+  other users will also run dashboard as admin which gives them view access to records and data they would otherwise not have access to. 
+    
+    * Running user setting overrides OWD, and other sharing settings or field level securities
+
+  3. Historical trending
+
+  4. Reporting snapshots
+
+  

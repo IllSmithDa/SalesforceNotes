@@ -119,3 +119,4 @@
   5. Set up a sandbox that mirrors the structure of their production org. From there, they can enable Shield Platform Encryption and experiment with how it does and doesn’t change the way their employees access information in their org.
 
     * When they turn on encryption in their sandbox org, Salesforce checks for potential side effects
+

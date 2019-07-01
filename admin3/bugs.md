@@ -80,3 +80,16 @@
 
       - do this for both SolarBots and SolarBot Status and save
 
+  4. Step 7 issue 
+
+    * Make sure to deactivate the opportunity picklist values prospecting and closed lost or else the dashboard will still attempt to read those values
+
+      - Then set the position and size as the module demands
+
+    * When it asks for a Opportunity Overview component, make sure that the dashboard is based off the Solarbot Loyalty Report as the instructions do not tell you this
+
+  5. Step 8 issue 
+
+    * When it asks for for highlights for two mariquee account, use filter option, pick account and add the two criterias mentioned in the module
+
+    * When it asks to sign up for weekly updates, use the subscribe option

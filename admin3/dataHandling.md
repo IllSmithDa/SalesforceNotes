@@ -27,7 +27,7 @@
 
     * Supports both import and export 
 
-    * 50 million records supported 
+    * 5 million records supported 
 
     * Uses all csv files
 
@@ -146,3 +146,11 @@
   4. You can use meta data using the workbench
 
   5. login using https://workbench.developerforce.com/login.php
+
+# 3rd Party Apps
+
+  1. Informatica for example can handle more than 5 million records 
+
+    * Of course, you can always to multiple batches
+
+  2. You can upload a app which will be processed by salesforce

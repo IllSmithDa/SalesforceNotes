@@ -18,6 +18,10 @@
 
   9. Versioned—Custom Apex code can be saved against different versions of the API.
 
+  10. Apex is the first language to be compiled over the internet and the cloud
+
+  11. Strongly typed and runs through a compiler who will convert human language into machine language
+
 # Apex Language Highlights
 
   1. Classes, interfaces, properties, and collections (including arrays).

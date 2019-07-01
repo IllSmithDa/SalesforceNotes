@@ -81,3 +81,12 @@
     * When you install a package, you determine which users can access its functionality
 
     * Options include admins only, all users, or specific profiles. If you’re not sure, grant access to admins only—you can always give other users access later.
+
+# More on App exchange
+
+  1. Apps can include the process of automating process such as the object creating process
+
+    * Bulk Object Field Creator
+
+  2. Can be found in the tab below your profile name and settings
+
