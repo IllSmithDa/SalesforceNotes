@@ -72,3 +72,4 @@
   3. Geopgraphy sanboxes will have multiple developer sandboxes into one integrated sandbox 
 
   4. All of these practices are done on the sandbox environment not the production one
+
