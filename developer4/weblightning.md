@@ -81,5 +81,3 @@
     * scratch org prevents having to buy orgs just for the sake of development
 
     * Dx is a set of tools that allow you to connect your code to your org 
-
-  3. 
