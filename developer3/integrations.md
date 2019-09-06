@@ -37,9 +37,10 @@
     * The data interchange can happen between 2 computer apps that are different geolocation
 
 
-
   2. Good for loading, deleting larget sets of data and be used for soql queries
 
   3. Utilizes standard dml statements like delete, update, insert, upsert etc 
 
   4. It handles the large data set asyncronously allowing it to be processed in the background allowing for another process to run rather than waiting for a dml operation to complete
+
+# 

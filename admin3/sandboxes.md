@@ -22,6 +22,8 @@
 
     * up to 5gb of the data 
 
+    * refreshed every week
+
   4. Full copy sandbox 
 
     * Store an exact copy of your production org 

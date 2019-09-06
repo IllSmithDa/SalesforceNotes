@@ -37,6 +37,14 @@
 
   4. Outbound message is always last
 
+# Outbound Message 
+
+  1. You need to create a endpoint url for your outbound message 
+
+    * For example, https://requestbin.com/
+
+
+
 # Parent Child and workflow
 
   1. Is it possible to access and perform record updates from child records through the parent record and vice versa
@@ -132,4 +140,3 @@
   9. Executes processes and flows launched via processes and flow trigger workflow actions.
 
   10. Executes escalation rules.
-

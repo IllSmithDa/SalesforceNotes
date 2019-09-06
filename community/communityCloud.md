@@ -26,7 +26,6 @@
 
     * most expensive as you need access opportunities and campaign
 
-
   2. Customer community plus 
 
     * Need dashboard and reports, desginated admin and also expensive
@@ -35,4 +34,26 @@
 
     * Standard option with no access to reports, dashboard, opportunities or campaign
 
-    
+  4. Much cheaper with only about 25 percent of the cost of a full salesforce license
+
+  5. You assign a license to a community user as well as profile and it will create a contact as well as a Account in which all community user will be listed under that the Account community.
+
+  5. You don't want every user to use Salesforce internal data and objects. Community Cloud separates external users from your org. 
+
+    * Minimalizes and simplies user management between internal and external users
+
+
+  
+# Two types of sharing models 
+
+  1. One for external useres and one for internal users 
+
+  2. You can create custom sharing groups if we want to share with internal users.
+
+# Lightning Scheduler and Snap Ins
+
+  1. Advanced chat boards that be configuarable including lightning components.
+
+  2. It is a simple drag drop just like Lightning App builder for including lightning components.
+
+  3. Current permissions need to be applied for components for community users.  
